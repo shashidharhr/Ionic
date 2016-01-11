@@ -1,0 +1,65 @@
+
+
+<ion-navbar >
+
+  <button menuToggle>
+    <ion-icon name='menu'></ion-icon>
+  </button>
+
+<div class='search'>
+  <button clear pull-right>
+    <ion-icon name='search'></ion-icon>
+  </button>
+</div>
+
+
+  <ion-title>
+    iSTAR
+  </ion-title>
+
+</ion-navbar>
+
+
+
+
+
+<!-- <ion-navbar *navbar>
+  <button menuToggle>
+    <icon menu></icon>
+  </button>
+  <ion-title>Login</ion-title>
+</ion-navbar> -->
+
+
+
+
+<ion-content padding class="getting-started">
+
+  <h3>Enter your username and password</h3><br><br><br>
+
+  <ion-list>
+
+  <ion-input floating-label>
+    <ion-label>Username</ion-label>
+    <input type="text" value="">
+  </ion-input>
+
+  <ion-input floating-label>
+    <ion-label>Password</ion-label>
+    <input type="password" value="">
+  </ion-input>
+<br><br>
+  <ion-checkbox checked="true">
+   Remember me
+</ion-checkbox>
+<br><br>
+
+<button dark (click)="goToOtherPage()">Sign in</button>
+<a href="#">New User? Sign up</a>
+
+</ion-list>
+</ion-content>
+
+
+
+  
