@@ -10,7 +10,7 @@ export class HelloIonicSignupPage {
 
 
 
-  constructor( nav: NavController ) {
+  constructor(nav: NavController ) {
      this.nav = nav;
 
   }
