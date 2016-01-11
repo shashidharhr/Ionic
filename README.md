@@ -10,8 +10,8 @@ sudo npm install -g cordova
 
 Navigate to the cloned repository
 
-Run 
+sudo npm install
 
-ionic serve
+Run ionic serve
 
 
