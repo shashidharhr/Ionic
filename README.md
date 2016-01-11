@@ -1,4 +1,5 @@
-Install npm latest version before anything 
+Install npm latest version before anything
+
 Install ionic globally using
 sudo npm install -g ionic@beta
 
@@ -7,8 +8,6 @@ sudo npm install -g cordova
 
 Navigate to the cloned repository
 
-Run 
+Run
 
 ionic serve
-
-
